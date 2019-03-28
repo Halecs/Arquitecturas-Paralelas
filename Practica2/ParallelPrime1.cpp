@@ -7,7 +7,7 @@
 #include <omp.h>
 #include <iostream>
 #define NUMOFTHREADS    4
-#define TOTAL 200000
+#define TOTAL 20000
 
 /* Prototypes */
 void *printPrimeThreadCalculation(void *threadid);
